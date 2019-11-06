@@ -24,7 +24,6 @@
 ### Numbers
 
 1. [Exercise 1](/day1/numbers/exercise1.md)
-2. [Exercise 2](/day1/numbers/exercise2.md)
 
 ### Writing to/Reading from a File
 
@@ -33,7 +32,7 @@
 ### Lists
 
 1. [Exercise 1](/day1/lists/exercise1.md)
-1. [Exercise 2](/day1/lists/exercise2.md)
+2. [Exercise 2](/day1/lists/exercise2.md)
 
 ### Booleans and None
 
@@ -42,7 +41,8 @@
 ### Loops
 
 1. [Exercise 1](/day1/loops/exercise1.md)
-1. [Exercise 2](/day1/loops/exercise2.md)
+2. [Exercise 2](/day1/loops/exercise2.md)
+3. [Exercise 3](/day1/loops/exercise3.md)
 
 ### Dictionaries
 
@@ -76,8 +76,6 @@
 
 1. [Exercise 1](/day2/netmikox/exercise1.md)
 2. [Exercise 2](/day2/netmikox/exercise2.md)
-3. [Exercise 3](/day2/netmikox/exercise3.md)
-4. [Exercise 4](/day2/netmikox/exercise4.md)
 
 ### Classes and Objects
 
@@ -87,7 +85,6 @@
 ### Python Code Structure
 
 1. [Exercise 1](/day2/structure/exercise1.md)
-2. [Exercise 2](/day2/structure/exercise2.md)
 
 
 ## Day 3
@@ -111,12 +108,13 @@
 ### TextFSM and Genie (Optional)
 
 1. [Exercise 1](/day3/parsers/exercise1.md)
-2. [Exercise 2](/day3/parsers/exercise1.md)
+2. [Exercise 2](/day3/parsers/exercise2.md)
 
 ### Data Serialization: YAML and JSON
 
 1. [Exercise 1](/day3/serialization/exercise1.md)
 2. [Exercise 2](/day3/serialization/exercise2.md)
+2. [Exercise 2](/day3/serialization/exercise3.md)
 
 ### Python Debugger
 
@@ -126,62 +124,55 @@
 
 1. [Exercise 1](/day3/api/exercise1.md)
 2. [Exercise 2](/day3/api/exercise2.md)
-3. [Exercise 3](/day3/api/exercise1.md)
-4. [Exercise 4](/day3/api/exercise2.md)
 
 ### Complex Data Structures
 
 1. [Exercise 1](/day3/data_struct/exercise1.md)
-2. [Exercise 2](/day3/data_struct/exercise2.md)
 
 
 ## Day 4
 
 ### Day 3 Review
 
-1. [Exercise 1](/day3/recap/recap_ex1.md)
+1. [Exercise 1](/day3/recap/exercise1.md)
 
 ### Subprocess - Integrating to the OS
 
-1. [Exercise 1](/day4/subprocess/subprocess_ex1.md)
+1. [Exercise 1](/day4/subprocess/exercise1.md)
 
 ### Working with CSV and Excel
 
-1. [Exercise 1](/day4/csv_excel/csv_excel_ex1.md)
-2. [Exercise 2](/day4/csv_excel/csv_excel_ex2.md)
+1. [Exercise 1](/day4/csv_excel/exercise1.md)
+2. [Exercise 2](/day4/csv_excel/exercise2.md)
+3. [Exercise 3](/day4/csv_excel/exercise3.md)
 
 ### Jinja2 Templating
 
-1. [Exercise 1](/day4/jinja/jinja_ex1.md)
-2. [Exercise 2](/day4/jinja/jinja_ex2.md)
-3. [Exercise 3](/day4/jinja/jinja_ex1.md)
-4. [Exercise 4](/day4/jinja/jinja_ex2.md)
+1. [Exercise 1](/day4/jinja/exercise1.md)
+2. [Exercise 2](/day4/jinja/exercise2.md)
+3. [Exercise 3](/day4/jinja/exercise3.md)
 
 ### Slack API
 
-1. [Exercise 1](/day4/slack/slack_ex1.md)
-2. [Exercise 2](/day4/slack/slack_ex2.md)
+1. [Exercise 1](/day4/slack/exercise1.md)
+2. [Exercise 2](/day4/slack/exercise2.md)
 
 ### NAPALM
 
-1. [Exercise 1](/day4/napalmx/napalm_ex1.md)
-2. [Exercise 2](/day4/napalmx/napalm_ex2.md)
+1. [Exercise 1](/day4/napalmx/exercise1.md)
+2. [Exercise 2](/day4/napalmx/exercise2.md)
 
 ### Concurrency
 
-1. [Exercise 1](/day4/concurrency/concurrency_ex1.md)
-2. [Exercise 2](/day4/concurrency/concurrency_ex2.md)
-3. [Exercise 3](/day4/concurrency/concurrency_ex1.md)
-4. [Exercise 4](/day4/concurrency/concurrency_ex2.md)
+1. [Exercise 1](/day4/concurrency/exercise1.md)
+2. [Exercise 2](/day4/concurrency/exercise2.md)
+3. [Exercise 3](/day4/concurrency/exercise3.md)
 
 ### Unit Testing
 
-1. [Exercise 1](/day4/testing/testing_ex1.md)
-2. [Exercise 2](/day4/testing/testing_ex2.md)
-3. [Exercise 3](/day4/testing/testing_ex1.md)
-4. [Exercise 4](/day4/testing/testing_ex2.md)
+1. [Exercise 1](/day4/testing/exercise1.md)
+2. [Exercise 2](/day4/testing/exercise2.md)
 
 ### Continuous Integration
 
-1. [Exercise 1](/day4/ci/ci_ex1.md)
-2. [Exercise 2](/day4/ci/ci_ex2.md)
+1. [Exercise 1](/day4/ci/exercise1.md)
