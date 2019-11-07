@@ -1,0 +1,25 @@
+$ git checkout -b my_branch
+Switched to a new branch 'my_branch'
+$ git status
+On branch my_branch
+nothing to commit, working tree clean
+$ vi anewfile.md
+$ git add anewfile.md
+$ git commit -m 'adding stuff in a branch'
+[my_branch a6c93ca] adding stuff in a branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 anewfile.md
+$ git push --set-upstream origin my_branch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'my_branch' on GitHub by visiting:
+remote:      https://github.com/carlmontanari/pynet_test/pull/new/my_branch
+remote:
+To https://github.com/carlmontanari/pynet_test
+ * [new branch]      my_branch -> my_branch
+Branch 'my_branch' set up to track remote branch 'my_branch' from 'origin'.

@@ -2,7 +2,7 @@
 import re
 from pprint import pprint
 
-with open("show_mac_multicast.txt") as f:
+with open("exercise2.txt") as f:
     output = f.read()
 
 # print(output)

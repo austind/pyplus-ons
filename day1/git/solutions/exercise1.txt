@@ -1,0 +1,39 @@
+$ git clone https://github.com/carlmontanari/pynet_test
+Cloning into 'pynet_test'...
+warning: You appear to have cloned an empty repository.
+$ ls
+pynet_test/
+$ cd pynet_test/
+$ vi README.md
+$ git add README.md
+$ git commit -m 'initial commit!'
+[master (root-commit) 74f30f6] initial commit!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/carlmontanari/pynet_test
+ * [new branch]      master -> master
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+$ git fetch origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/carlmontanari/pynet_test
+   74f30f6..d62ad13  master     -> origin/master
+$ git pull
+Updating 74f30f6..d62ad13
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+$ cat README.md
+a very nice readme
+tacos!

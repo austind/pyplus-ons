@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import re
 
-with open("show_int_fa4.txt") as f:
+with open("exercise1.txt") as f:
     output = f.read()
 
 patterns = {
