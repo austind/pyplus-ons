@@ -10,11 +10,7 @@ for line in output:
     if "Interface" in line:
         continue
     interface, ip_address, _, _, status, protocol = line.split()
-    fields = {
-        "ip_address": ip_address,
-        "line_status": status,
-        "line_protocol": protocol,
-    }
+    fields = {"ip_address": ip_address, "line_status": status, "line_protocol": protocol}
     ip_dict[interface] = fields
 
 

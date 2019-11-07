@@ -37,9 +37,7 @@ if __name__ == "__main__":
         "status": 1,  # Active
     }
 
-    response = requests.post(
-        url, headers=http_headers, data=json.dumps(post_data), verify=False
-    )
+    response = requests.post(url, headers=http_headers, data=json.dumps(post_data), verify=False)
     response = response.json()
     print()
     pprint(response)

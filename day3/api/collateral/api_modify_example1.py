@@ -50,9 +50,7 @@ PUT DATA: {'id': 8, 'name': 'arista6', 'display_name': 'arista6', 'device_type':
     arista6["status"] = 1
     arista6["rack"] = 2
 
-    response = requests.put(
-        url, headers=http_headers, data=json.dumps(arista6), verify=False
-    )
+    response = requests.put(url, headers=http_headers, data=json.dumps(arista6), verify=False)
     response = response.json()
     print()
     pprint(response)
