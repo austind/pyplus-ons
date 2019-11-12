@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-from __future__ import print_function
 from getpass import getpass
-from pprint import pprint as pp
 from napalm import get_network_driver
 
 ip_addr = "srx1.twb-tech.com"
