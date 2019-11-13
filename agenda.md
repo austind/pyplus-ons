@@ -129,6 +129,11 @@
 1. [Exercise 1](/day3/api/exercise1.md)
 2. [Exercise 2](/day3/api/exercise2.md)
 
+### NX-API
+
+1. [Exercise 1](/day3/nxapi/exercise1.md)
+2. [Exercise 2](/day3/nxapi/exercise2.md)
+
 
 ## Day 4
 
