@@ -3,7 +3,7 @@
 1. Using the following 'show interface status' output:
 
 ```
-​Port      Name  Status       Vlan  Duplex Speed Type
+Port      Name  Status       Vlan  Duplex Speed Type
 Gi0/1/0         notconnect   1     auto   auto  10/100/1000BaseTX
 Gi0/1/1         notconnect   1     auto   auto  10/100/1000BaseTX
 Gi0/1/2         notconnect   1     auto   auto  10/100/1000BaseTX
@@ -13,9 +13,9 @@ Gi0/1/3         notconnect   1     auto   auto  10/100/1000BaseTX
 Create a TextFSM template that extracts only the 'Port' column (i.e. the interface name). The output of the FSM table should look as follows:
 
 ```
-$ textfsm.py ex1_show_int_status.tpl ex1_show_int_status.txt
+$ textfsm.py exercise1.tpl ex1_show_int_status.txt
 ...
-​FSM Table:
+FSM Table:
 ['PORT_NAME']
 ['Gi0/1/0']
 ['Gi0/1/1']
@@ -23,4 +23,4 @@ $ textfsm.py ex1_show_int_status.tpl ex1_show_int_status.txt
 ['Gi0/1/3']
 ```
 
-Note: `textfsm.py` should be on your PATH so you can call it as shown in the exampel above.
+Note: `textfsm.py` should be on your PATH so you can call it as shown in the example above.
