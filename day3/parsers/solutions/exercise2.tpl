@@ -1,4 +1,3 @@
-
 Value PORT_NAME (\S+)
 Value STATUS (\S+)
 Value VLAN (\d+)

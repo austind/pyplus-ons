@@ -3,7 +3,7 @@
 1. Using the following 'show interface status' output:
 
 ```
-​Port      Name  Status       Vlan  Duplex Speed Type
+Port      Name  Status       Vlan  Duplex Speed Type
 Gi0/1/0         notconnect   1     auto   auto  10/100/1000BaseTX
 Gi0/1/1         notconnect   1     auto   auto  10/100/1000BaseTX
 Gi0/1/2         notconnect   1     auto   auto  10/100/1000BaseTX
