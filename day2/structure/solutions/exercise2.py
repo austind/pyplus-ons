@@ -1,5 +1,5 @@
 import json
-
+from pprint import pprint
 from netmiko import ConnectHandler
 
 NXOS1 = {
@@ -13,7 +13,9 @@ NXOS1 = {
 def main():
     conn = ConnectHandler(**NXOS1)
     version = conn.send_command("show version | json")
-    print(json.loads(version))
+    print()
+    pprint(json.loads(version))
+    print()
 
 
 if __name__ == "__main__":
