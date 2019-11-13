@@ -27,10 +27,10 @@ if __name__ == "__main__":
         "authorization": "Token {}".format(token),
     }
     post_data = {
-        "name": "arista8",
+        "name": "arista1",
         "device_role": 3,  # Distribution Switch
         "device_type": 2,  # vEOS
-        "display_name": "arista8",
+        "display_name": "arista1",
         "platform": 4,  # Arista EOS
         "rack": 1,  # RK1
         "site": 1,  # Fremont Data Center

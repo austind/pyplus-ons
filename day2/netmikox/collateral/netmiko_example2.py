@@ -7,7 +7,7 @@ if __name__ == "__main__":
     password = getpass("Enter router password: ")
     pynet_rtr1 = {
         "device_type": "cisco_ios_telnet",
-        "ip": "cisco1.lasthop.io",
+        "ip": "cisco3.lasthop.io",
         "username": "pyclass",
         "password": password,
     }

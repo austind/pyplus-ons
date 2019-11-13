@@ -1,15 +1,15 @@
 
 Take the following YAML file.
 
-$ cat my_file.yml 
-- device_name: pynet-rtr1
+$ cat my_file.yml
+- device_name: pynet-rtr3
   device_type: cisco_ios
-  host: 184.105.247.70
+  host: 184.105.247.89
   password: my_pass
   username: pyclass
-- device_name: pynet-rtr2
+- device_name: pynet-rtr4
   device_type: cisco_ios
-  host: 184.105.247.71
+  host: 184.105.247.90
   password: my_pass
   username: pyclass
 - device_name: pynet-sw1
@@ -32,9 +32,9 @@ $ cat my_file.yml
   host: 184.105.247.75
   password: my_pass
   username: pyclass
-- device_name: pynet-jnpr-srx1
+- device_name: pynet-jnpr-srx2
   device_type: juniper_junos
-  host: 184.105.247.76
+  host: 184.105.247.91
   password: my_pass
   username: pyclass
 

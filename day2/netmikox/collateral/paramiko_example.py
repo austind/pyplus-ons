@@ -3,7 +3,7 @@ from getpass import getpass
 import time
 import paramiko
 
-ip_addr = "cisco1.lasthop.io"
+ip_addr = "cisco3.lasthop.io"
 username = "pyclass"
 password = getpass()
 

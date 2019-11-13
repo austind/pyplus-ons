@@ -2,7 +2,7 @@
 from getpass import getpass
 from napalm import get_network_driver
 
-ip_addr = "srx1.twb-tech.com"
+ip_addr = "srx2.twb-tech.com"
 username = "pyclass"
 password = getpass()
 optional_args = {}
