@@ -120,14 +120,14 @@
 
 1. [Exercise 1](/day3/debugger/exercise1.md)
 
+### Complex Data Structures
+
+1. [Exercise 1](/day3/data_struct/exercise1.md)
+
 ### APIs
 
 1. [Exercise 1](/day3/api/exercise1.md)
 2. [Exercise 2](/day3/api/exercise2.md)
-
-### Complex Data Structures
-
-1. [Exercise 1](/day3/data_struct/exercise1.md)
 
 
 ## Day 4
