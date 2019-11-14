@@ -1,9 +1,10 @@
 from concurrent.futures import ProcessPoolExecutor, as_completed
+import os
 from getpass import getpass
 from netmiko import ConnectHandler
 
 
-PASSWORD = getpass()
+PASSWORD = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
 DEVICES = [
     {
         "host": "cisco3.lasthop.io",

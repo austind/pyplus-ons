@@ -1,6 +1,10 @@
+import os
 from getpass import getpass
 
-password = getpass("Enter standard password: ")
+if os.getenv("PYNET_PASSWORD"):
+    password = os.getenv("PYNET_PASSWORD")
+else:
+    password = getpass("Enter standard password: ")
 
 cisco3 = {
     "hostname": "cisco3.lasthop.io",
