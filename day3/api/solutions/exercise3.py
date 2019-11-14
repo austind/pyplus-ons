@@ -27,10 +27,7 @@ def main():
 
     # POST the data to Netbox
     resp = requests.post(
-        f"{BASE_URL}ipam/ip-addresses/",
-        headers=http_headers,
-        verify=False,
-        data=json.dumps(data),
+        f"{BASE_URL}ipam/ip-addresses/", headers=http_headers, verify=False, data=json.dumps(data),
     )
     print()
     print("Creating IP address object:")
