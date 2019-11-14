@@ -3,7 +3,8 @@ from getpass import getpass
 import json
 import requests
 
-PASSWORD = os.getenv('PYNET_PASSWORD') if os.getenv('PYNET_PASSWORD') else getpass()
+PASSWORD = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
+
 
 def main():
     url = "https://nxos1.lasthop.io:8443/api/aaaLogin.json"

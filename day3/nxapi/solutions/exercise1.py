@@ -8,7 +8,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-password = os.getenv('PYNET_PASSWORD') if os.getenv('PYNET_PASSWORD') else getpass()
+password = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
 device = Device(
     api_format="jsonrpc",
     host="nxos1.lasthop.io",

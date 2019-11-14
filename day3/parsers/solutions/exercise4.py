@@ -5,7 +5,7 @@ from pprint import pprint
 
 from netmiko import ConnectHandler
 
-password = os.getenv('PYNET_PASSWORD') if os.getenv('PYNET_PASSWORD') else getpass()
+password = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
 device = {
     "device_type": "cisco_nxos",
     "host": "nxos1.lasthop.io",

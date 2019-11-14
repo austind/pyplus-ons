@@ -20,7 +20,7 @@ def main():
     """
     filename = "exercise3.yaml"
     devices = read_yml_file(filename)
-    password = os.getenv('PYNET_PASSWORD') if os.getenv('PYNET_PASSWORD') else getpass()
+    password = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
     for a_device in devices:
         device_name = a_device.pop("device_name")
         print("\n\nConnecting to: {}".format(device_name))

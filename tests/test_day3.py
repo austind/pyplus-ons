@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 import pytest
 import subprocess
@@ -42,17 +41,14 @@ def test_parsers_ex1():
     """
     Execute textfsm.py:
 
-    $ textfsm.py exercise1.tpl ex1_show_int_status.txt 
+    $ textfsm.py exercise1.tpl ex1_show_int_status.txt
     """
-    cmd_list = [
-        "textfsm.py",
-        "exercise1.tpl",
-        "ex1_show_int_status.txt"
-    ]
+    cmd_list = ["textfsm.py", "exercise1.tpl", "ex1_show_int_status.txt"]
     script_dir = "../day3/parsers/solutions/"
     std_out, std_err, return_code = subprocess_runner(cmd_list, script_dir)
     assert return_code == 0
     assert std_err == ""
+
 
 @pytest.mark.parametrize("test_case", TEST_CASES)
 def test_runner(test_case):
@@ -60,10 +56,6 @@ def test_runner(test_case):
     python_script = path_obj.name
     script_dir = path_obj.parents[0]
     cmd_list = ["python", python_script]
-    #cmd_list = ["python", test_case]
-    import ipdb
-
-    # ipdb.set_trace()
     std_out, std_err, return_code = subprocess_runner(cmd_list, script_dir)
     assert return_code == 0
     assert std_err == ""
