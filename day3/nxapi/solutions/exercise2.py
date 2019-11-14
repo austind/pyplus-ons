@@ -1,3 +1,4 @@
+import os
 from getpass import getpass
 from lxml import etree
 from nxapi_plumbing import Device
@@ -10,11 +11,12 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
 # Create nxapi_plumbing Device object
+password = os.getenv('PYNET_PASSWORD') if os.getenv('PYNET_PASSWORD') else getpass()
 device = Device(
     api_format="xml",
     host="nxos1.lasthop.io",
     username="pyclass",
-    password=getpass(),
+    password=password,
     transport="https",
     port=8443,
     verify=False,
