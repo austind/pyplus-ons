@@ -10,7 +10,7 @@ def main():
     for row in range(2, sites.max_row + 1):
         import ipdb
 
-        ipdb.set_trace()
+        # ipdb.set_trace()
         ip_addresses[sites.cell(row=row, column=1).value] = {}
         ip_addresses[sites.cell(row=row, column=1).value]["devices"] = sites.cell(
             row=row, column=2
