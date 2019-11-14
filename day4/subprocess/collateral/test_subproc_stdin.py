@@ -10,6 +10,7 @@ proc = subprocess.Popen(
     bufsize=1,  # Use line-buffering (send line when a newline is encountered)
     universal_newlines=True,  # Input/output gets converted to/from text
 )
+# This pattern won't work for getpass() handling
 std_out, std_err = proc.communicate(input=stdin_responses)
 
 print()
