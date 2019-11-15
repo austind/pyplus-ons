@@ -1,11 +1,12 @@
 #!/usr/bin/env python
+import os
 from getpass import getpass
 from netmiko import ConnectHandler
 
 
 def main():
     """Exercises using Netmiko"""
-    passwd = getpass("Enter password: ")
+    passwd = os.getenv("PYNET_PASSWORD") if os.getenv("PYNET_PASSWORD") else getpass()
 
     nxos1 = {
         "device_type": "cisco_nxos",

@@ -38,7 +38,7 @@ def subprocess_runner_stdin(cmd_list, stdin_response, exercise_dir):
         stderr=subprocess.PIPE,
         bufsize=1,  # Use line-buffering (send line when a newline is encountered)
         universal_newlines=True,  # Input/output gets converted to/from text
-        cwd=exercise_dir
+        cwd=exercise_dir,
     ) as proc:
         std_out, std_err = proc.communicate(input=stdin_response)
     return (std_out, std_err, proc.returncode)
